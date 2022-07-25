@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.btn{
+    border-radius: 25%;
+}
+
+h1{
+    color: #5FCF7F !important;
+    font-weight: 650 !important;
+}
+
+.home{
+    color: #5FCF7F;
+}
+
+.item:hover{
+    color: #5FCF7F !important;
+    transition: 0.3s;
+    animation-timing-function: ease-in-out;
+}
+
+#welcome{
+    background-image: url("https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg");
+    position: relative;
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+#welcome::before{
+    content: ""; 
+    position: absolute;
+    inset: 0px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.info-text{
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.details p{
+    color: white;
+    font-size: 26px;
+}
+
+#welcome .container .row{
+    position: absolute;
+    top: 20vh;
+}
+
+.btn-outline-success{
+    border-color: white;
+    color: white;
+}
+
+
+.list1::before{
+    content: "\2713";
+}
+
+.card-title{
+    text-align: center;
+    font-size: 36px;
+}
+.mainMentor .card{
+    background-color: #5FCF7F;
+    color: white;
+    text-align: left;
+}
+
+.learn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 375%);
+}
+
+.otherTitle{
+    font-size: 24px;
+}
+
+.fft .icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22pt;
+}
+
+.fft a{
+    text-decoration: none;
+    color: rgb(33, 25, 25);
+}
+.fft h3{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.fftBox{
+    border: 1px solid rgb(206, 206, 206, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h5{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.smallImg{
+    width: 3vw;
+    border-radius: 50%;
+}
+
+.social a{
+    color: darkgray;
+    padding-right: 10px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.social a:hover{
+    color: #5FCF7F;
+}
+
+.footer-top{
+    background-color: rgb(246, 246, 246);
+}
+
+.footer-top p{
+    color: darkgray;
+}
+.footer-links a{
+    color: darkgray;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.footer-links a::before{
+    content: "\2192";
+}
+
+@media screen and (max-width: 992px) {
+    .nav-links{
+        visibility: hidden;
+    }
+    .visib{
+        visibility: visible;
+    }
+}
